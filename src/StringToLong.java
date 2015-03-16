@@ -3,6 +3,7 @@
  */
 public class StringToLong {
     public long stringToLong(String s) throws NumberFormatException{
+        s = s.replaceAll("\\s+","");
         long num = 0;
         long digitIndex = 1;
         // calculate all but the first digit

@@ -7,7 +7,7 @@ import java.util.Iterator;
 public class Main {
     public static void main(String[] args) {
         ArrayList<String> testString = new ArrayList<String>();
-        testString.add("0123456789");
+        testString.add("  0123456789");
         testString.add("+");
         testString.add("-");
         testString.add("+1");
